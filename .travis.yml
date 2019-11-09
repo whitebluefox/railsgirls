@@ -2,7 +2,6 @@ addons:
   postgresql: 11.5
 before_script:
   - cp config/database.yml.travis config/database.yml
-dist: trusty
 language: ruby
 rvm:
   - 2.6.3
